@@ -1,7 +1,7 @@
 const { instance } = require("./src/lib/axios.instance");
-const { BASE_URL } = require("./src/utils/constants");
+// const { BASE_URL } = require("./src/utils/constants");
 // const {logger} = require("./src/lib/logger");
-
+const BASE_URL = "http://localhost:3000/api";
 /**
  * Represents a BWSLOGGER instance for logging.
  * @constructor
