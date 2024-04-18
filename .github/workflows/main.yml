@@ -19,3 +19,13 @@ jobs:
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Load .env variables
+        run: |
+          echo "Loading .env file"
+          source .env
+        shell: bash
+
+      - name: Show environment variables
+        run: |
+          echo "API_KEY: $API_KEY"
+          echo "DATABASE_URL: $DATABASE_URL"
