@@ -1,8 +1,11 @@
 {
-  "name": "bws-logger-http",
+  "name": "@htunsoehsan/bws-logger-http",
   "version": "1.0.0",
   "description": "BWS Logger Module - HTTP",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
