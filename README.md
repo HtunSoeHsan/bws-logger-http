@@ -2,17 +2,20 @@
 
 BWS Logger Module - HTTP
 
-- 1. create .npmrc file in root
-- 2. copy and paste this
-  ````@htunsoehsan:registry=https://npm.pkg.github.com/
-      //npm.pkg.github.com/:_authToken=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```
-  ````
-- 3. install package
-     `npm install @htunsoehsan/bws-logger-http@1.0.3`
+- create .npmrc file in root
+- copy and paste this
+
+```@htunsoehsan:registry=https://npm.pkg.github.com/
+    //npm.pkg.github.com/:_authToken=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
+```
+
+- install package
+  `npm install @htunsoehsan/bws-logger-http@1.0.3`
 
 ### Usage
 
-    ```var { BWSLOGGER} = require("@htunsoehsan/bws-logger-http");
+    ```
+    var { BWSLOGGER} = require("@htunsoehsan/bws-logger-http");
 
     //check connection
     const bws = new BWSLOGGER({
@@ -32,4 +35,8 @@ error: "2UBCLr5w3rzcAA6npRSKge",
 });
 
 // log
-bws.error({ errorId: "error1", data: "hsh"}); ```
+bws.error({ errorId: "error1", data: "hsh"});
+
+```
+
+```
