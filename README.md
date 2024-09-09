@@ -5,9 +5,7 @@ BWS Logger Module - HTTP
 - create .npmrc file in root
 - copy and paste this
 
-```@htunsoehsan:registry=https://npm.pkg.github.com/
-    //npm.pkg.github.com/:_authToken=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
-```
+`@htunsoehsan:registry=https://npm.pkg.github.com///npm.pkg.github.com/:_authToken=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`
 
 - install package
   `npm install @htunsoehsan/bws-logger-http@1.0.3`
