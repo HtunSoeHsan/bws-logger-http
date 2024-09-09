@@ -3,7 +3,7 @@
 BWS Logger Module - HTTP
 
 - create `.npmrc` file in root
-- copy and paste this
+- copy and paste this to `.npmrc` file
 
 ```
 @htunsoehsan:registry=https://npm.pkg.github.com///npm.pkg.github.com/:_authToken=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
